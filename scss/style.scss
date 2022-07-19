@@ -22,6 +22,7 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    min-width: 225px;
 }
 
 .main-screen {
@@ -37,8 +38,7 @@
             left: 0;
 		}
 }
-.content {
-    min-width: 225px;
+.content {    
 }
 
 .generation { 
@@ -358,7 +358,7 @@
     }
 }
 
-.footer {  
+.footer {    
     background-color: #f7f7f7;
     &__row {
         display: flex;
